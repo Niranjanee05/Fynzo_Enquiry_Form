@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>ENQUIRY FORM</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+
+    <!-- SECTION 1-->
+
+    <section class="section-1" id="section-1">
+        <div class="start-1">
+            <div class="start-left">
+                <h1 class="slideanim">Enquiry Form</h1>
+                <div class="wrap">
+                    <a href="#section-2"> <button type="button" class="button slideanim">Start</button></a>
+                </div>
+            </div>
+        </div>
+        <div class="start-2 floating">
+            <img src="img/Section-1-doodle.png" class="slideanim" alt="doodle-1">
+        </div>
+    </section>
+
+    <!-- SECTION 2 -->
+
+    <section class="section-2" id="section-2">
+        <div class="sec-2-left floating ">
+            <img src="img/section-2-doodle.png" class="slideanim" alt="doodle-2">
+        </div>
+        <div class="sec-2-right">
+            <div class="sec-right">
+                <h1 class="slideanim">Your Sweet Name</h1>
+                <input type="text" id="name" title="Your Name" class="slideanim">
+                <a href="#section-3"><button type="button" class="slideanim">Next</button></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 3 -->
+
+    <section class="section-3" id="section-3">
+        <div class="sec-3-left">
+            <div class="sec-left">
+                <h1 class="slideanim">Your Birthday...</h1>
+                <input type="date" name="dateofbirth" id="dob" class="dateofbirth slideanim">
+                <a href="#achieve"><button type="button" class="slideanim">Next</button></a>
+            </div>
+        </div>
+        <div class="sec-3-right floating">
+            <img src="img/cake-1.svg " class="slideanim" alt="doodle-3 ">
+        </div>
+    </section>
+
+    <!-- SECTION 4 -->
+
+    <section class="section-4 " id="achieve">
+        <div class="sec-4-left floating">
+            <img src="img/section-4-doodle.svg " class="slideanim" alt="doodle-4 ">
+        </div>
+        <div class="sec-4-right ">
+            <div class="sec-right-2 ">
+                <h1 class="slideanim">Your Achievements</h1>
+                <textarea placeholder="Write your Achievements here... " name="achievements " id="achieve " rows="10 " class="slideanim"></textarea>
+                <a href="#family"><button type="button" class="slideanim">Next</button></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION-5 -->
+
+    <section class="section-5 " id="family">
+        <div class="sec-5-left floating">
+            <img src="img/section-5-doodle.svg " class="slideanim" alt="doodle-5 ">
+        </div>
+        <div class="sec-5-right ">
+            <div class="sec-right-3 slideanim ">
+                <h1>Family Members...</h1>
+                <input type="checkbox" id="box-1" class="slideanim">
+                <label for="box-1" class="slideanim">Father</label>
+                <input type="checkbox" id="box-2" class="slideanim">
+                <label for="box-2" class="slideanim">Mother</label>
+                <input type="checkbox" id="box-3" class="slideanim">
+                <label for="box-3" class="slideanim">Sister</label>
+                <input type="checkbox" id="box-4" class="slideanim">
+                <label for="box-4" class="slideanim">Brother</label>
+                <input type="checkbox" id="box-5" class="slideanim">
+                <label for="box-5" class="slideanim">Other</label>
+                <input type="checkbox" id="box-6" class="slideanim">
+                <label for="box-6" class="slideanim">None</label>
+            </div>
+            <div class="sec-3-button">
+                <a href="#last"><button class="slideanim">Next</button></a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SECTION-6 -->
+    <section class="section-6 " id="last">
+        <div class="sec-6-top ">
+            <div class="sec-6-top-left ">
+                <h1 class="slideanim">Submit the form...</h1>
+                <button type="submit" class="slideanim" id="myBtn">Submit</button>
+                <div id="myModal" class="modal">
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <p>You submitted your form successfully!!</p>
+                        <img src="img/modal-img.gif" alt="modal-img">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="sec-6-bottom floating">
+            <img src="img/sec-6-doodle-2.png " class="slideanim " alt="doodle-6 ">
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+    <script src="app.js " async defer></script>
+
+</body>
+
+</html>
